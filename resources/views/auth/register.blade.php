@@ -66,6 +66,19 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+                                <p>Or Sign Up With :</p>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <a href="{{ url('/auth/facebook') }}" class="btn btn-primary">
+                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                    Facebook
+                                </a>
+                                <a href="{{ url('/auth/google') }}" class="btn btn-primary">
+                                    <i class="fa fa-google" aria-hidden="true"></i>
+                                    Google
+                                </a>
                             </div>
                         </div>
                     </form>

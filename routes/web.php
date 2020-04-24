@@ -15,4 +15,11 @@ Route::get('/', function () {
     return redirect('shop');
 });
 
+Route::get('/home', function () {
+    return redirect('shop');
+});
+
 Auth::routes();
+
+Route::get('auth/{provider}', 'Auth\SocialiteController@redirectToProvider');
+Route::get('auth/{provider}/callback', 'Auth\SocialiteController@handleProviderCallback');
