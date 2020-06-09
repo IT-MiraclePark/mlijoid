@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito); @charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10659,7 +10659,7 @@ body {
 .basket-mini-main,
 .basket-mini > a:before,
 .basket-mini-product .basket-toggle {
-  color: #BA9A5A;
+  color: #8CAE3D;
 }
 
 .locale-select ul.select-menu {
